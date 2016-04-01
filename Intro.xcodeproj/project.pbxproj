@@ -15,6 +15,7 @@
 		CCE8C6D11CAE29EC00343942 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CCE8C6CF1CAE29EC00343942 /* LaunchScreen.storyboard */; };
 		CCE8C6DC1CAE29EC00343942 /* IntroTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCE8C6DB1CAE29EC00343942 /* IntroTests.swift */; };
 		CCE8C6E71CAE29EC00343942 /* IntroUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCE8C6E61CAE29EC00343942 /* IntroUITests.swift */; };
+		CCE8C6F51CAF209B00343942 /* Spring in Resources */ = {isa = PBXBuildFile; fileRef = CCE8C6F41CAF209B00343942 /* Spring */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		CCE8C6E21CAE29EC00343942 /* IntroUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = IntroUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CCE8C6E61CAE29EC00343942 /* IntroUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntroUITests.swift; sourceTree = "<group>"; };
 		CCE8C6E81CAE29EC00343942 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CCE8C6F41CAF209B00343942 /* Spring */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Spring; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +101,7 @@
 		CCE8C6C21CAE29EC00343942 /* Intro */ = {
 			isa = PBXGroup;
 			children = (
+				CCE8C6F41CAF209B00343942 /* Spring */,
 				CCE8C6C31CAE29EC00343942 /* AppDelegate.swift */,
 				CCE8C6C51CAE29EC00343942 /* ViewController.swift */,
 				CCE8C6C71CAE29EC00343942 /* Main.storyboard */,
@@ -236,6 +239,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				CCE8C6D11CAE29EC00343942 /* LaunchScreen.storyboard in Resources */,
+				CCE8C6F51CAF209B00343942 /* Spring in Resources */,
 				CCE8C6CE1CAE29EC00343942 /* Assets.xcassets in Resources */,
 				CCE8C6C91CAE29EC00343942 /* Main.storyboard in Resources */,
 			);
@@ -489,6 +493,7 @@
 				CCE8C6ED1CAE29EC00343942 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		CCE8C6EE1CAE29EC00343942 /* Build configuration list for PBXNativeTarget "IntroTests" */ = {
 			isa = XCConfigurationList;
@@ -497,6 +502,7 @@
 				CCE8C6F01CAE29EC00343942 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		CCE8C6F11CAE29EC00343942 /* Build configuration list for PBXNativeTarget "IntroUITests" */ = {
 			isa = XCConfigurationList;
@@ -505,6 +511,7 @@
 				CCE8C6F31CAE29EC00343942 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
